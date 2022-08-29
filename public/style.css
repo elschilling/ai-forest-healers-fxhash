@@ -1,6 +1,21 @@
 body {
-  background-color: lightblue;
-
+  background-color: black;
+  margin: auto;
   /* leave it to hide the scrollbars */
   overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
 }
